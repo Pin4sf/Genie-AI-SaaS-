@@ -53,7 +53,7 @@ import { Card } from "@/components/ui/card";
  ]
 
 
-const dashboardPage = () => {
+const DashboardPage = () => {
     const router = useRouter();
     return ( 
         <div>
@@ -90,4 +90,4 @@ const dashboardPage = () => {
      );
 }
  
-export default dashboardPage;
+export default DashboardPage;
